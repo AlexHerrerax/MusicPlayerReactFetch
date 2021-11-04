@@ -34,7 +34,7 @@ useEffect(() =>{getCanciones()   }, [])
 
 
 
-  const [indexCancion, setIndexCancion] = useState(0);
+  const [indexCancion, setIndexCancion] = useState(1);
   const [reproduciendo, setReproduciendo] = useState(0);
 
   let playRef = useRef(null);
