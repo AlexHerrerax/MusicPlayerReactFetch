@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import VistaReproductor from './VistaReproductor';
+import './style.css'
 
 
 const Reproductor = () => {
@@ -68,9 +69,9 @@ const Reproductor = () => {
 
         <>
 
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
+            <div className="container ">
+                <div className="row justify-content-center ">
+                    <div className="col-7 text-center bg-dark">
                         
                     <VistaReproductor
                     anterior={anterior}
